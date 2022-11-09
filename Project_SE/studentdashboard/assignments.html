@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments</title>
+    <link  rel="stylesheet" href="dashstyles.css">
+    <link rel="stylesheet" href="tablestyles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <script src="dashboard.js"></script>
+    <div class="topnav">
+        <div class="heading">Assignments</div>
+        <div>
+            <a onclick="home()"><img class="icons" src="homeicon.svg"></a>
+            <a onclick="Profile()"><img class="icons" src="Profileicon.svg"></a>
+        </div> 
+    </div>
+    <div class="sidebar">
+        <a onclick="Attendance()">Attendance</a><br>
+        <a onclick="TT()">Timetable</a><br>
+        <a onclick="Faculty()">Faculty View</a><br>
+        <a onclick="Courses()">Course View</a><br>
+        <a onclick="Assignments()">Assignments</a><br>
+    </div>
+    <script src="getAssignments.js"></script>
+    <table class="table">
+        <tr>
+            <th>Course Code</th> 
+            <th>Course Name</th>
+            <th>Assignment</th>
+            <th>Deadline</th>
+        </tr>
+        <br>
+        <tr>
+            <td id="r1c1"></td>
+            <td id="r1c2"></td>
+            <td id="r1c3"></td>
+            <td id="r1c4"></td>
+        </tr>
+        <br>
+        <tr>
+            <td id="r2c1"></td>
+            <td id="r2c2"></td>
+            <td id="r2c3"></td>
+            <td id="r2c4"></td>
+        </tr>
+        <tr>
+            <td id="r3c1"></td>
+            <td id="r3c2"></td>
+            <td id="r3c3"></td>
+            <td id="r3c4"></td>
+        </tr>
+        <tr>
+            <td id="r4c1"></td>
+            <td id="r4c2"></td>
+            <td id="r4c3"></td>
+            <td id="r4c4"></td>
+        </tr>
+        <tr>
+            <td id="r5c1"></td>
+            <td id="r5c2"></td>
+            <td id="r5c3"></td>
+            <td id="r5c4"></td>
+        </tr>
+        <br>
+        <tr>
+            <td id="r6c1"></td>
+            <td id="r6c2"></td>
+            <td id="r6c3"></td>
+            <td id="r6c4"></td>
+        </tr>
+        <tr>
+            <td id="r7c1"></td>
+            <td id="r7c2"></td>
+            <td id="r7c3"></td>
+            <td id="r7c4"></td>
+        </tr>
+        <tr>
+            <td id="r8c1"></td>
+            <td id="r8c2"></td>
+            <td id="r8c3"></td>
+            <td id="r8c4"></td>
+        </tr>
+    </table>  
+</body>
+</html>

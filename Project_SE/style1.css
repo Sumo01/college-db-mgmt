@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+
+body
+{
+    background-image: url("bg.svg");
+    width: 1575px;
+}
+
+.header-cont
+{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    position: relative;
+    background-image: url("bgonbg.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1000px;
+    height: 700px;
+    padding: 50px;
+    text-align:center;
+}
+
+.h1main
+{
+    font-family: 'Londrina Solid', cursive;
+    color: white;
+    font-size: 60px;
+    padding-top:    0px; 
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+}
+
+.h1login
+{
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    color: white;
+    font-size: 60px;
+    padding-top: 100px;
+}
+
+.header
+{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-top: 150px;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.login
+{
+    background-color: #FF8716;
+    border-spacing: 2px;
+    column-width: auto;
+    width: 400px;
+    height: 60px;
+    border: 1px #FF8716;
+    padding-top:20px;
+    margin: 40px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.word
+{
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    color: white;
+    font-size: 60px;
+    padding-top: 100px;
+}
+
+.button
+{
+   margin: auto;
+   font-family: 'Londrina Solid', cursive;
+   background-color: #FFE500;
+   border-color: #FFE500;
+   font-weight: bold;
+   font-size: 15px;
+   width: 150px;
+   height: 50px;
+   color: #E1532F;
+   font-size: 25px;
+}
+
+.loginput
+{
+	position: relative; 
+	width: 400px;
+    height: 40px;
+    margin-top:40px;
+    margin-bottom:20px;    
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.loginput img
+{
+    position: absolute; 
+    top: 0px;
+    right: 0px;
+    width: 40px;
+}
+
+.loginput input 
+{
+    display:block;
+    width: 400px;
+    height:40px;
+    box-sizing: border-box ;
+    border-color: white;
+    font-family: 'Londrina Solid',cursive;
+    font-size: 25px;
+}
+
+

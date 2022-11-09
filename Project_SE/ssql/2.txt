@@ -1,0 +1,216 @@
+INSERT INTO Course
+VALUES ("CSE1001","Problem Solving and Programming","CSE1001_Syllabus.pdf");
+INSERT INTO Course
+VALUES ("CSE1002","OOPs","CSE1002_Syllabus.pdf");
+INSERT INTO Course
+VALUES ("CSE1004","Computer Networks","CSE1004_Syllabus.pdf");
+INSERT INTO Course
+VALUES ("CSE2001","Data Structures and Algorithms","CSE2001_Syllabus.pdf");
+
+INSERT INTO faculty
+VALUES("1538001", "Amitabh B.","9999900000" ,"amitabhb@gmail.com","1978-2-12","Indian","General","907A, Bajaj Apartment, Delhi, India, 569980", 50000, "AHoD,CSE","SJT303A");
+INSERT INTO faculty
+VALUES("1538002", "Manoj B.","999910001" ,"manojb@gmail.com","1956-8-30","Indian","General","404A, Malad New Link Rd, Malad (w),Mumbai,400064", 35000, "Asst. Prof, IT","TT421C");
+INSERT INTO faculty
+VALUES("1538003", "Krishna M.","9999920002" ,"krishnam@gmail.com","1988-5-6","Indian","OBC","120,89, M C Road, M.i.d.c.,Mumbai,400093 ", 60000, "HoD,Mech","SJT201D");
+INSERT INTO faculty
+VALUES("1538004", "Vidhya B.","9999930003" ,"vidhyab@gmail.com","1986-11-2","Indian","ST","303C, Khodiar Temple, Gandhi Nagar,382481", 70000, "HoD,CSE","SJT-A201C");
+INSERT INTO faculty
+VALUES("1538005", "Priya C.", "9999940004" ,"priyac@gmail.com","1969-12-21","NRI","Foreign","65/89, Gandi Bazaar, Basavanagudi,Bangalore,560004", 20000, "Prof, IoT","SJT-A222A");
+
+INSERT INTO CourseWork
+VALUES("CSE1001","Lecture1","1538001","Lecture1.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1001","Lecture2","1538001","Lecture2.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1001","Lecture3","1538001","Lecture3.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1001","Lecture4","1538001","Lecture4.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1001","Lecture1","1538004","Lecture1.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1001","Lecture2","1538004","Lecture2.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1001","Lecture3","1538004","Lecture3.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1001","Lecture4","1538004","Lecture4.pdf");
+
+INSERT INTO CourseWork
+VALUES("CSE1002","Lecture1","1538002","Lecture1.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1002","Lecture2","1538002","Lecture2.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1002","Lecture3","1538002","Lecture3.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1002","Lecture4","1538002","Lecture4.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1002","Lecture1","1538003","Lecture1.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1002","Lecture2","1538003","Lecture2.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1002","Lecture3","1538003","Lecture3.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1002","Lecture4","1538003","Lecture4.pdf");
+
+INSERT INTO CourseWork
+VALUES("CSE1004","Lecture1","1538005","Lecture1.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1004","Lecture2","1538005","Lecture2.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1004","Lecture3","1538005","Lecture3.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1004","Lecture4","1538005","Lecture4.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1004","Lecture1","1538003","Lecture1.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1004","Lecture2","1538003","Lecture2.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1004","Lecture3","1538003","Lecture3.pdf");
+INSERT INTO CourseWork
+VALUES("CSE1004","Lecture4","1538003","Lecture4.pdf");
+
+INSERT INTO CourseWork
+VALUES("CSE2001","Lecture1","1538005","Lecture1.pdf");
+INSERT INTO CourseWork
+VALUES("CSE2001","Lecture2","1538005","Lecture2.pdf");
+INSERT INTO CourseWork
+VALUES("CSE2001","Lecture3","1538005","Lecture3.pdf");
+INSERT INTO CourseWork
+VALUES("CSE2001","Lecture4","1538005","Lecture4.pdf");
+INSERT INTO CourseWork
+VALUES("CSE2001","Lecture1","1538003","Lecture1.pdf");
+INSERT INTO CourseWork
+VALUES("CSE2001","Lecture2","1538003","Lecture2.pdf");
+INSERT INTO CourseWork
+VALUES("CSE2001","Lecture3","1538003","Lecture3.pdf");
+INSERT INTO CourseWork
+VALUES("CSE2001","Lecture4","1538003","Lecture4.pdf");
+
+INSERT INTO studentcourse(RegNo,CourseCode,FacID)
+VALUES("20BDS0156","CSE1001","1538001");
+INSERT INTO studentcourse(RegNo,CourseCode,FacID)
+VALUES("20BDS0156","CSE1002","1538002");
+INSERT INTO studentcourse(RegNo,CourseCode,FacID)
+VALUES("20BDS0156","CSE1004","1538003");
+INSERT INTO studentcourse(RegNo,CourseCode,FacID)
+VALUES("20BDS0156","CSE2001","1538005");
+INSERT INTO studentcourse(RegNo,CourseCode,FacID)
+VALUES("20BBS0133","CSE1001","1538004");
+INSERT INTO studentcourse(RegNo,CourseCode,FacID)
+VALUES("20BBS0133","CSE1002","1538002");
+INSERT INTO studentcourse(RegNo,CourseCode,FacID)
+VALUES("20BBS0133","CSE1004","1538005");
+INSERT INTO studentcourse(RegNo,CourseCode,FacID)
+VALUES("20BBS0133","CSE2001","1538003");
+
+INSERT INTO ETHSlots
+VALUES("A","M:8-9|U:9-10|H:11-12|F:12-1");
+INSERT INTO ETHSlots
+VALUES("B","U:8-9|W:9-10|H:10-11|F:11-12");
+INSERT INTO ETHSlots
+VALUES("C","M:11-12|U:12-1|W:8-9|F:10-11");
+INSERT INTO ETHSlots
+VALUES("D","M:10-11|W:12-1|H:8-9|F:9-10");
+INSERT INTO ETHSlots
+VALUES("E","M:9-10|U:10-11|W:11-12|H:12-1");
+INSERT INTO ELASlots
+VALUES("L1+L2","M:2-3|M:3-4");
+INSERT INTO ELASlots
+VALUES("L3+L4","M:4-5|M:5-6");
+INSERT INTO ELASlots
+VALUES("L5+L6","U:2-3|U:3-4");
+INSERT INTO ELASlots
+VALUES("L7+L8","U:4-5|U:5-6");
+INSERT INTO ELASlots
+VALUES("L9+L10","W:2-3|W:3-4");
+INSERT INTO ELASlots
+VALUES("L11+12","W:4-5|W:5-6");
+INSERT INTO ELASlots
+VALUES("L13+L14","H:2-3|H:3-4");
+INSERT INTO ELASlots
+VALUES("L15+L16","H:4-5|H:5-6");
+INSERT INTO ELASlots
+VALUES("L17+L18","F:2-3|F:3-4");
+INSERT INTO ELASlots
+VALUES("L19+L20","F:4-5|F:5-6");
+
+
+INSERT INTO Timings
+VALUES("CSE1001","1538001","A","L1+L2");
+INSERT INTO Timings
+VALUES("CSE1001","1538004","B","L5+L6");
+INSERT INTO Timings
+VALUES("CSE1002","1538002","C","L9+L10");
+INSERT INTO Timings
+VALUES("CSE1002","1538003","D","L13+L14");
+INSERT INTO Timings
+VALUES("CSE1004","1538003","E","L17+L18");
+INSERT INTO Timings
+VALUES("CSE1004","1538005","D","L3+L4");
+INSERT INTO Timings
+VALUES("CSE2001","1538003","A","L11+L12");
+INSERT INTO Timings
+VALUES("CSE2001","1538005","B","L19+L20");
+
+INSERT INTO Assignments
+VALUES("CSE1001","1538001","Assignment1.pdf","2022-12-12");
+INSERT INTO Assignments      
+VALUES("CSE1001","1538001","Assignment2.pdf","2022-12-12");
+INSERT INTO Assignments
+VALUES("CSE1001","1538004","Assignment1.pdf","2022-12-12");
+INSERT INTO Assignments
+VALUES("CSE1001","1538004","Assignment2.pdf","2022-12-12");
+INSERT INTO Assignments
+VALUES("CSE1002","1538002","Assignment1.pdf","2022-12-12");
+INSERT INTO Assignments
+VALUES("CSE1002","1538002","Assignment2.pdf","2022-12-12");
+INSERT INTO Assignments
+VALUES("CSE1002","1538003","Assignment1.pdf","2022-12-12");
+INSERT INTO Assignments
+VALUES("CSE1002","1538003","Assignment2.pdf","2022-12-12");
+INSERT INTO Assignments
+VALUES("CSE1004","1538003","Assignment1.pdf","2022-12-12");
+INSERT INTO Assignments
+VALUES("CSE1004","1538003","Assignment2.pdf","2022-12-12");
+INSERT INTO Assignments
+VALUES("CSE1004","1538005","Assignment1.pdf","2022-12-12");
+INSERT INTO Assignments
+VALUES("CSE1004","1538005","Assignment2.pdf","2022-12-12");
+INSERT INTO Assignments
+VALUES("CSE2001","1538003","Assignment1.pdf","2022-12-12");
+INSERT INTO Assignments
+VALUES("CSE2001","1538003","Assignment2.pdf","2022-12-12");
+INSERT INTO Assignments
+VALUES("CSE2001","1538005","Assignment1.pdf","2022-12-12");
+INSERT INTO Assignments
+VALUES("CSE2001","1538005","Assignment2.pdf","2022-12-12");
+
+1. Query for attendance.
+SELECT RegNo,CourseCode, faculty.FacID as FacultyID,faculty.Name as FacultyName, course.Name as CourseName, Attendance
+FROM studentcourse,course,faculty
+WHERE studentcourse.coursecode=course.code AND faculty.facID=studentcourse.facID;
+
+2. Query for fac
+SELECT RegNo,CourseCode, faculty.FacID as FacID, faculty.Name as FacName, course.Name as CourseName, Phone
+FROM studentcourse, course, faculty
+WHERE coursecode=code AND faculty.FacID=studentcourse.FacID;
+
+3. Query for courses
+SELECT RegNo, Code, course.Name as CourseName, faculty.facID as FacID, faculty.name as FacName, ETHSlot,ELASlot
+FROM studentcourse, course, faculty, timings
+WHERE studentcourse.coursecode=code AND faculty.FacID=studentcourse.FacID AND code=timings.coursecode AND faculty.facID=timings.facID;
+
+4. Query for Timetable.
+SELECT RegNo, timings.CourseCode AS CourseCode, ETHSlots.timings as ETHTimings, ELASlots.timings as ELATimings
+FROM studentcourse, timings,ELASlots, ETHSlots
+WHERE studentcourse.coursecode=timings.coursecode and studentcourse.facID=timings.facID AND ETHSlots.slots=ETHSlot and ELASlots.slots=ELASlot;
+	
+5. Query for Assignments
+SELECT RegNo, Code, Name, Assignment, Deadline
+FROM studentcourse, Assignments, course
+WHERE studentcourse.CourseCode=code AND studentcourse.facID=Assignments.facID AND assignments.coursecode=code;
+
+6.
+SELECT RegNo,Topic, File
+FROM studentcourse, coursework
+WHERE studentcourse.coursecode=coursework.coursecode AND studentcourse.facID=coursework.facID;

@@ -1,0 +1,7 @@
+<svg width="1680" height="820" viewBox="0 0 1680 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1680" height="100" fill="#FEDCDC"/>
+<rect y="820" width="820" height="100" transform="rotate(-90 0 820)" fill="#FEDCDC"/>
+<rect x="1580" y="820" width="820" height="100" transform="rotate(-90 1580 820)" fill="#FEDCDC"/>
+<rect y="720" width="1680" height="100" fill="#FEDCDC"/>
+<path d="M30 30H1650V790H30V30Z" fill="#C22047"/>
+</svg>
