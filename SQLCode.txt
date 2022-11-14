@@ -1,0 +1,25 @@
+------------------------------------Authentication for Connection------------------------------------------------------
+While installing mySQL you have to input the your username and password for mySQL.
+Copy the same - (if no user created your username will be root) - and use it in connect.php
+Similarly, while installing the server, you would have entered a server name. That will also be used in connect.php
+----------------------------------------------------------------------------------------------------------------------
+-----------------------------------Tables and Relations between tables------------------------------------------------
+View Database-tables-and-relations.png to see the relations etc
+Tables Used:
+1. STUDENT - RegNo, Password
+
+----------------------------------------------------------------------------------------------------------------------
+-----------------------------------SQL Code---------------------------------------------------------------------------
+Run the mySQL command line shell.
+SQL Code to create tables and database.
+
+CREATE DATABASE seproject 
+//put any name of your choice
+USE seproject
+CREATE TABLE STUDENT(
+    RegNo varchar(10) PRIMARY KEY,
+    Password varchar(20) NOT NULL
+);
+INSERT INTO STUDENT
+VALUES('20BDS0156','temppass001');
+//enter more VALUES if needed.
