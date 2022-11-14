@@ -16,5 +16,5 @@ Requirements:
    Installation  and hosting- https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Install-Apache-Web-Server-24-Windows-10-ServerRoot-Error#:~:text=Step%20by%20step%20Apache%20install%20on%20Windows&text=Download%20the%20installation%20media%20in,run%20the%20httpd.exe%20command
 3. mySQL community edition - https://dev.mysql.com/downloads/installer/
 
--------------SQL Code--------------
-After downloading and installing Mysql with the required connectors (Only mySQL shell is needed do not need mySQL for VSCode- will give error as it needs VSCode 2019)
+
+After downloading and installing Mysql with the required connectors (Only mySQL command line is needed do not need mySQL for VSCode- will give error as it needs VSCode 2019)

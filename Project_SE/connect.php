@@ -3,9 +3,12 @@
   $pass=$_GET['pass'];
   //echo $name.$pass;
   //creating connection
+  //add your apache server name
   $servername="localhost";
+  //use the username and password that you entered while installing mySQL. 
   $username="root";
   $password="tiehead1234!";
+  //use the name of the database under which you have created your tables. For the sql code, visit SQLCode.txt file. 
   $dbname="seproject";
   $conn=new mysqli($servername,$username,$password,$dbname);
   if ($conn->connect_error) {
