@@ -28,7 +28,7 @@ After downloading and installing Mysql with the required connectors (Only mySQL 
       cd C:\Apache24\bin
       httpd.exe
 6. Go to your browser and type in localhost (or your custom server name) and it should open a page saying it works.
-7. Copy the projectSE folder and go to C:\Apache\bin\htdocs and paste the folder there. 
+7. Copy the projectSE folder and go to C:\Apache\htdocs and paste the folder there. 
 8. Now, go to CollegeDBMgmtStartPage.html in htdocs and open that from the htdocs folder. 
 9. This should get the project started. 
 10. Make sure to make the tables and add values in mySQL otherwise the backend will not be up. Go to SQLCode for the same.
