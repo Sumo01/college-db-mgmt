@@ -32,3 +32,4 @@ After downloading and installing Mysql with the required connectors (Only mySQL 
 8. Now, go to CollegeDBMgmtStartPage.html in htdocs and open that from the htdocs folder. 
 9. This should get the project started. 
 10. Make sure to make the tables and add values in mySQL otherwise the backend will not be up. Go to SQLCode for the same.
+-----------------
